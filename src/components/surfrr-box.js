@@ -1,6 +1,6 @@
 import React from 'react';
 
-class SurfrrBox extends React.Component {
+class Box extends React.Component {
     render() {
       return (
         <div className="box-root"></div>
@@ -8,4 +8,4 @@ class SurfrrBox extends React.Component {
     }
   }
 
-  export default SurfrrBox;
+  export default Box;
