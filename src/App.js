@@ -12,8 +12,6 @@ function App() {
           🏄
         </span>
       </header>
-      <body>
-      </body>
     </div>
   );
 }
