@@ -20,15 +20,13 @@ code {
 
 .surfr-emoji::after {
   content: "\1F3C4"; /* 🏄 */
-  /* CSS Pseudo-elements escape some characters that's why the unicode 'U+1F36E' is converted to '\1F36E' */
   font-size: 100px;
-  /*As @LukyVj added in the comment section, Chrome limits the emoji size in 256px, Safari and Firefox doesn't restrcit sizes*/
   display: block;
 }
 
 .surfr-box-root {
   margin: 8px 8px 8px 8px;
-  border: 1px dotted white;
+  border: 1px solid white;
 }
 
 .surfr-box-content {
