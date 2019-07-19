@@ -8,8 +8,8 @@ function App() {
       <p>
         Surfr
       </p>
-        <span role="img" aria-label="Surfr">
-          🏄
+        <span role="img" aria-label="surfr-emoji" class ="surfr-emoji">
+
         </span>
       </header>
     </div>
