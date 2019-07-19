@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Box extends React.Component {
-    const children = this.props.children;
+    public children = this.props.children;
 
     render() {
       return (
