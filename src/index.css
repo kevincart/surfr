@@ -25,3 +25,12 @@ code {
   /*As @LukyVj added in the comment section, Chrome limits the emoji size in 256px, Safari and Firefox doesn't restrcit sizes*/
   display: block;
 }
+
+.surfr-box-root {
+  margin: 8px 8px 8px 8px;
+  border: 1px dotted white;
+}
+
+.surfr-box-content {
+  margin: 16px 16px 16px 16px;
+}
