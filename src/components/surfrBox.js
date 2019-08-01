@@ -4,7 +4,6 @@ class Box extends React.Component {
     constructor (props){
         super(props);
         this.children = this.props.children;
-        console.log('children: ', this.props.children);
     }
     render() {
       return (
