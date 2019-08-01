@@ -1,6 +1,11 @@
+// React
 import React from 'react';
 
-import Box from './components/surfrr-box';
+// Surfr Components
+import Box from './components/surfrBox';
+import SiteLink from './components/surfrLink';
+
+// Styles
 import './App.css';
 
 function App() {
@@ -13,6 +18,7 @@ function App() {
                 </p>
                 <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span>
             </Box>
+            <SiteLink route="homepage">Find out more...</SiteLink>
           </header>
         </div>
     );
