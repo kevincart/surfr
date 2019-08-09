@@ -25,7 +25,9 @@ code {
 }
 
 .surfr-box-root {
-  margin: 8px 8px 8px 8px;
+  position: relative;
+  width: 50%;
+  margin: 16px 16px 16px 16px;
   border: 1px solid white;
 }
 
