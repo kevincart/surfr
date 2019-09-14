@@ -1,3 +1,7 @@
+/* Base Element overrides */
+/*
+*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,6 +17,33 @@ code {
     monospace;
 }
 
+/* App styles */
+/*
+*/
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Design System CSS */
+/*
+*/
+
+p .surfr-h1 {
+  font-size: 48 px;
+}
+
 .surfr-emoji {
   width: 100%;
   text-align: center;
@@ -25,7 +56,9 @@ code {
 }
 
 .surfr-box-root {
-  margin: 8px 8px 8px 8px;
+  position: relative;
+  width: 50%;
+  margin: 16px 16px 16px 16px;
   border: 1px solid white;
 }
 
@@ -34,5 +67,6 @@ code {
 }
 
 .surfr-link {
+  font-size: 24 px;
   color: grey;
 }

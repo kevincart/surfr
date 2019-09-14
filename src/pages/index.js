@@ -5,18 +5,18 @@ import React from 'react';
 import Box from './components/surfrBox';
 import SiteLink from './components/surfrLink';
 
+// Styles
+import './App.css';
+
 function App() {
     return (
         <div className="App">
           <header className="App-header">
             <Box>
-                <p className="surfr-h1">
+                <p>
                     Surfr
                 </p>
                 <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span>
-                <p>
-                  A cool open-source react design system.
-                </p>
             </Box>
             <SiteLink route="homepage">Find out more...</SiteLink>
           </header>
