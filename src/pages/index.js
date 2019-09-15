@@ -1,9 +1,10 @@
 // React
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Surfr Components
 import Box from '../components/surfrBox';
-import { Link } from 'react-router-dom';
+import Emoji from '../components/surfrEmoji';
 
 function Index() {
     return (
@@ -13,7 +14,8 @@ function Index() {
                 <p className="surfr-h1">
                     Surfr
                 </p>
-                <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span>
+                <Emoji content="\u1F3C4"></Emoji>
+                {/* <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span> */}
                 <p>
                   A cool open-source react design system.
                 </p>
