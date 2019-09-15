@@ -1,27 +1,14 @@
-// React
-import React from 'react';
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+// We will create these two pages in a moment
+import Index from './pages/index'
+import About from './pages/about'
 
-// Surfr Components
-import Box from './components/surfrBox';
-import SiteLink from './components/surfrLink';
-
-function App() {
-    return (
-        <div className="App">
-          <header className="App-header">
-            <Box>
-                <p className="surfr-h1">
-                    Surfr
-                </p>
-                <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span>
-                <p>
-                  A cool open-source react design system.
-                </p>
-            </Box>
-            <SiteLink route="homepage">Find out more...</SiteLink>
-          </header>
-        </div>
-    );
+export default function App() {
+  return (
+    <Switch>
+      <Route exact path="/" component={Index} />
+      <Route path="/about" component={About} />
+    </Switch>
+  )
 }
-
-export default App;

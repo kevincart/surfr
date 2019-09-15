@@ -2,26 +2,26 @@
 import React from 'react';
 
 // Surfr Components
-import Box from './components/surfrBox';
-import SiteLink from './components/surfrLink';
+import Box from '../components/surfrBox';
+import { Link } from 'react-router-dom';
 
-// Styles
-import './App.css';
-
-function App() {
+function Index() {
     return (
         <div className="App">
           <header className="App-header">
             <Box>
-                <p>
+                <p className="surfr-h1">
                     Surfr
                 </p>
                 <span role="img" aria-label="surfr-emoji" className="surfr-emoji"></span>
+                <p>
+                  A cool open-source react design system.
+                </p>
             </Box>
-            <SiteLink route="homepage">Find out more...</SiteLink>
+            <Link to="/about">Find out more...</Link>
           </header>
         </div>
     );
 }
 
-export default App;
+export default Index;
