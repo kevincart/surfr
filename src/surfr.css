@@ -27,7 +27,7 @@ code {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 64vh;
   font-size: 16px;
   display: flex;
   flex-direction: column;
