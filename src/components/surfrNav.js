@@ -9,7 +9,7 @@ class Nav extends React.Component {
     }
     render() {
       return (
-        <Emoji content="\u1F3C4"></Emoji>
+        <Emoji content="&#127828;"></Emoji>
       );
     }
   }

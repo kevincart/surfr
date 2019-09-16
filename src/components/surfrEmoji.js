@@ -10,10 +10,7 @@ class Emoji extends React.Component {
     }
     render() {
       return (
-        <span role="img" aria-label="surfr-emoji" className="surfr-emoji">{ "&#" + this.props.content + ";"}</span>
-        // <a className="surfr-link" href="homepage.html">
-        //     { this.props.children }
-        // </a>
+        <span role="img" aria-label="surfr-emoji" className="surfr-emoji">{this.props.content}</span>
       );
     }
   }
