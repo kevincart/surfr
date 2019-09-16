@@ -47,10 +47,6 @@ p .surfr-h1 {
 .surfr-emoji {
   width: 100%;
   text-align: center;
-}
-
-.surfr-emoji::after {
-  content: "\1F3C4"; /* 🏄 */
   font-size: 100px;
   display: block;
 }
