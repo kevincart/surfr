@@ -37,6 +37,10 @@ code {
   min-height: 64px;
 }
 
+.App-article {
+  min-width: 32px;
+}
+
 /* Design System CSS */
 /*
 */
