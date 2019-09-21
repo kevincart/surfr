@@ -3,8 +3,7 @@ import React from 'react';
 class Emoji extends React.Component {
     constructor (props){
         super(props);
-        this.children = this.props.children;
-        console.log('link props: ', this.props);
+        console.log('emoji props: ', this.props);
 
         this.content = this.props.content;
     }

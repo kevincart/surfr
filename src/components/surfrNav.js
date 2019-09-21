@@ -17,7 +17,7 @@ class Nav extends React.Component {
         <div className="surfr-nav-root">
           <div className="surfr-nav-header">
             <p className="surfr-nav-trigger">
-              <Emoji content={this.surfer}></Emoji>
+              <Emoji content={this.trigram}></Emoji>
             </p>
           </div>
           <div className="surfr-nav-title">{this.title}</div>

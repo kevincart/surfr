@@ -43,6 +43,10 @@ code {
   min-width: 32px;
 }
 
+.Index-emoji {
+  font-size: 100px;
+}
+
 /* Design System CSS */
 /*
 */
@@ -54,7 +58,6 @@ p .surfr-h1 {
 .surfr-emoji {
   width: 100%;
   text-align: center;
-  font-size: 100px;
   display: block;
 }
 
@@ -84,6 +87,8 @@ p .surfr-h1 {
 }
 
 .surfr-nav-trigger {
+  font-size: 48px;
+  margin-left: 24px;
 }
 
 .surfr-nav-title {

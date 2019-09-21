@@ -12,9 +12,15 @@ function Index() {
             <header className="App-header"></header>
             <div className="App">
                 <Box>
-                    <p className="surfr-h1">Surfr</p>
-                    <p><Emoji content="&#127940;"></Emoji></p>
-                    <p>A cool open-source react design system.</p>
+                    <p className="surfr-h1">
+                        Surfr
+                    </p>
+                    <p className="Index-emoji">
+                        <Emoji content="&#127940;"></Emoji>
+                    </p>
+                    <p>
+                        A cool open-source react design system.
+                    </p>
                 </Box>
                 <Link to="/about" className="surfr-link">Find out more...</Link>
             </div>
