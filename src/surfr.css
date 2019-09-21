@@ -34,6 +34,8 @@ code {
 }
 
 .App-header {
+  display: block;
+  width: 100%;
   min-height: 64px;
 }
 
@@ -70,4 +72,20 @@ p .surfr-h1 {
 .surfr-link {
   font-size: 24 px;
   color: grey;
+}
+
+.surfr-nav-root {
+}
+
+.surfr-nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.surfr-nav-trigger {
+}
+
+.surfr-nav-title {
+  font-size: 32px;
 }

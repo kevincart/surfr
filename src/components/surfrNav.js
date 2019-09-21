@@ -6,10 +6,22 @@ class Nav extends React.Component {
         super(props);
         this.children = this.props.children;
         console.log('nav props: ', this.props);
+
+        this.hamburger = "🍔";
+        this.trigram = "☰";
+        this.surfer = "🏄";
+        this.title = this.props.title;
     }
     render() {
       return (
-        <Emoji content="&#127828;"></Emoji>
+        <div className="surfr-nav-root">
+          <div className="surfr-nav-header">
+            <p className="surfr-nav-trigger">
+              <Emoji content={this.surfer}></Emoji>
+            </p>
+          </div>
+          <div className="surfr-nav-title">{this.title}</div>
+        </div>
       );
     }
   }
