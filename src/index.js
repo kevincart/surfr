@@ -11,7 +11,7 @@ import './surfr.css';
 import './_reset.scss';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/surfr">
         <App />
     </BrowserRouter>,
     document.getElementById('root')
