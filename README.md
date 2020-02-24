@@ -1,5 +1,7 @@
 # Surfr 🏄
+https://kevincart.github.io/surfr/about
 
+.^.^. Hosted on Github Pages
 
 A React-based Design System starter project.
 
