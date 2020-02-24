@@ -1,5 +1,5 @@
 # Surfr 🏄
-https://kevincart.github.io/surfr/about
+https://kevincart.github.io/surfr/
 
 .^.^. Hosted on Github Pages
 
