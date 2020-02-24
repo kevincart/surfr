@@ -9,7 +9,7 @@ function About() {
     return (
         <div className="App">
             <header className="App-header">
-            <Nav title="About Page"></Nav>
+            <Nav title="Surfr Design System"></Nav>
             </header>
             <Box>
                 <article className="App-article">

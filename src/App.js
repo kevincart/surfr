@@ -5,6 +5,7 @@ import Index from './pages/index'
 import About from './pages/about'
 
 export default function App() {
+  // .^.^. Surfing with a simple router
   return (
     <Switch>
       <Route exact path="/" component={Index} />
