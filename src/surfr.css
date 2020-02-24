@@ -42,8 +42,8 @@ code {
   min-width: 32px;
 }
 
-.Index-emoji {
-  font-size: 100px;
+.Index-svg {
+  
 }
 
 /* Design System CSS */
@@ -78,6 +78,7 @@ p .surfr-h1 {
 }
 
 .surfr-nav-root {
+  /* Do something with this? */
 }
 
 .surfr-nav-header {
@@ -94,4 +95,8 @@ p .surfr-h1 {
 .surfr-nav-title {
   font-size: 32px;
   margin-bottom: 32px;
+}
+
+.surfr-svg-root {
+  display: block;
 }

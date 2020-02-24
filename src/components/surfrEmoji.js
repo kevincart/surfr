@@ -1,11 +1,16 @@
 import React from 'react';
 
+//////////
+// Content : Converts from decimal NCR
+//   eg: &#129312;
+
 class Emoji extends React.Component {
     constructor (props){
         super(props);
-        console.log('emoji props: ', this.props);
 
-        this.content = this.props.content;
+        if (props) {
+          this.content = this.props.content;
+        }
     }
     render() {
       return (

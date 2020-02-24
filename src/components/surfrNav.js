@@ -5,7 +5,6 @@ class Nav extends React.Component {
     constructor (props){
         super(props);
         this.children = this.props.children;
-        console.log('nav props: ', this.props);
 
         this.hamburger = "🍔";
         this.trigram = "☰";

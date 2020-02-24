@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 
 // Surfr Components
 import Box from '../components/surfrBox';
-import Emoji from '../components/surfrEmoji';
+import SVG from '../components/surfrSVG';
+import SurferManSVG from '../svg/surfing-man-openmoji.component'
+import WaveSVG from '../svg/wave-openmoji.component'
 
 function Index() {
     return (
@@ -15,14 +17,19 @@ function Index() {
                     <p className="surfr-h1">
                         Surfr
                     </p>
-                    <p className="Index-emoji">
-                        <Emoji content="&#127940;"></Emoji>
-                    </p>
+                    <SVG>
+                        <SurferManSVG></SurferManSVG>
+                    </SVG>
                     <p>
                         A cool open-source react design system.
                     </p>
                 </Box>
                 <Link to="/about" className="surfr-link">Find out more...</Link>
+                <p className="Index-svg">
+                    <SVG>
+                        <WaveSVG></WaveSVG>
+                    </SVG>
+                </p>
             </div>
         </div>
     );
