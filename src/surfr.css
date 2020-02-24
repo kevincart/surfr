@@ -8,7 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  font-size: 60px;
+  font-size: 300px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,14 +27,13 @@ code {
   flex-direction: column;
   align-items: center;
   background-color: #282c34;
-  font-size: 16px;
+  font-size: 3vh;
   text-align: center;
   justify-content: center;
   color: white;
 }
 
 .App-header {
-  display: block;
   width: 100%;
   min-height: 64px;
 }
@@ -52,7 +51,7 @@ code {
 */
 
 p .surfr-h1 {
-  font-size: 48 px;
+  font-size: 4vh;
 }
 
 .surfr-emoji {
@@ -62,9 +61,10 @@ p .surfr-h1 {
 }
 
 .surfr-box-root {
+  display: block;
   position: relative;
-  width: 50%;
-  margin: 16px 16px 16px 16px;
+  width: 64%;
+  margin: 8px 8px 8px 8px;
   border: 1px solid white;
 }
 
