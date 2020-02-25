@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/surfr/static/css/main.a15b7b19.chunk.css",
-    "main.js": "/surfr/static/js/main.7da7276c.chunk.js",
-    "main.js.map": "/surfr/static/js/main.7da7276c.chunk.js.map",
+    "main.js": "/surfr/static/js/main.4b43d259.chunk.js",
+    "main.js.map": "/surfr/static/js/main.4b43d259.chunk.js.map",
     "runtime~main.js": "/surfr/static/js/runtime~main.c62ead2e.js",
     "runtime~main.js.map": "/surfr/static/js/runtime~main.c62ead2e.js.map",
     "static/js/2.17cd65fe.chunk.js": "/surfr/static/js/2.17cd65fe.chunk.js",
     "static/js/2.17cd65fe.chunk.js.map": "/surfr/static/js/2.17cd65fe.chunk.js.map",
     "index.html": "/surfr/index.html",
-    "precache-manifest.3cab6083b264e0f94d26d6ad1b21d1d3.js": "/surfr/precache-manifest.3cab6083b264e0f94d26d6ad1b21d1d3.js",
+    "precache-manifest.fcb4c58af30579574bc734ad6b85a1e2.js": "/surfr/precache-manifest.fcb4c58af30579574bc734ad6b85a1e2.js",
     "service-worker.js": "/surfr/service-worker.js",
     "static/css/main.a15b7b19.chunk.css.map": "/surfr/static/css/main.a15b7b19.chunk.css.map"
   }
