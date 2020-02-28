@@ -63,7 +63,7 @@ p .surfr-h1 {
 .surfr-box-root {
   display: block;
   position: relative;
-  border-radius: 10px;
+  border-radius: 16px;
   width: 64%;
   margin: 24px 24px 24px 24px;
   border: 1px solid white;

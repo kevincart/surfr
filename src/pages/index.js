@@ -25,11 +25,9 @@ function Index() {
                     </p>
                 </Box>
                 <Link to="/about" className="surfr-link">Find out more...</Link>
-                <p className="Index-svg">
-                    <SVG>
-                        <WaveOpenmoji></WaveOpenmoji>
-                    </SVG>
-                </p>
+                <SVG>
+                    <WaveOpenmoji></WaveOpenmoji>
+                </SVG>
             </div>
         </div>
     );
