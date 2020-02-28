@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Box from '../components/surfrBox';
 import SVG from '../components/surfrSVG';
 import SurferManSVG from '../svg/surfing-man-openmoji.component'
-import WaveSVG from '../svg/wave-openmoji.component'
+import WaveOpenmoji from '../svg/wave-openmoji.component'
 
 function Index() {
     return (
@@ -27,7 +27,7 @@ function Index() {
                 <Link to="/about" className="surfr-link">Find out more...</Link>
                 <p className="Index-svg">
                     <SVG>
-                        <WaveSVG></WaveSVG>
+                        <WaveOpenmoji></WaveOpenmoji>
                     </SVG>
                 </p>
             </div>

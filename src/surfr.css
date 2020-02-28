@@ -63,13 +63,14 @@ p .surfr-h1 {
 .surfr-box-root {
   display: block;
   position: relative;
+  border-radius: 10px;
   width: 64%;
-  margin: 8px 8px 8px 8px;
+  margin: 24px 24px 24px 24px;
   border: 1px solid white;
 }
 
 .surfr-box-content {
-  margin: 16px 16px 16px 16px;
+  margin: 24px 24px 24px 24px;
 }
 
 .surfr-link {
@@ -99,4 +100,8 @@ p .surfr-h1 {
 
 .surfr-svg-root {
   display: block;
+}
+
+.surfr-svg-content {
+  margin: 24px 24px 24px 24px;
 }

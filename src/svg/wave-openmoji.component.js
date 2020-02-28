@@ -1,6 +1,6 @@
 import React from "react";
 
-function waveOpenmoji() {
+function WaveOpenmoji() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,6 @@ function waveOpenmoji() {
             viewBox="0 0 72 72"
             xmlSpace="preserve">
             <g
-                fill="none"
                 stroke="#000"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -35,4 +34,4 @@ function waveOpenmoji() {
     );
 }
 
-export default waveOpenmoji;
+export default WaveOpenmoji;
