@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://kevincart.github.io/surfr",
   "dependencies": {
-    "create-react-library": "~2.6.7",
-    "eslint": "~6.0.1",
+    "create-react-library": "^3.0.6",
+    "eslint": "~6.6.0",
     "gh-pages": "~2.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "~4.13.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-router-dom": "~5.0.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "~3.4.1",
     "typescript": "~3.5.3"
   },
   "scripts": {
