@@ -1,7 +1,7 @@
 {
   "name": "surfr",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://kevincart.github.io/surfr",
   "dependencies": {
     "create-react-library": "^3.0.6",
