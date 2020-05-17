@@ -4,8 +4,8 @@
   "private": false,
   "homepage": "https://kevincart.github.io/surfr",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kevincart/surfr"
+    "type": "git",
+    "url": "https://github.com/kevincart/surfr"
   },
   "email": "kevincart@gmail.com",
   "dependencies": {
