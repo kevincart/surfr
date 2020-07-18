@@ -1,6 +1,6 @@
 {
   "name": "surfr",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": false,
   "homepage": "https://kevincart.github.io/surfr",
   "repository": {
@@ -8,11 +8,12 @@
     "url": "https://github.com/kevincart/surfr"
   },
   "email": "kevincart@gmail.com",
-  "dependencies": {
+  "dependencies": { },
+  "devDependencies": {
     "create-react-library": "^3.0.6",
     "eslint": "~6.6.0",
     "gh-pages": "~2.2.0",
-    "node-sass": "~4.13.1",
+    "node-sass": "^4.14.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-router-dom": "~5.0.1",
