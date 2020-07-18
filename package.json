@@ -8,7 +8,7 @@
     "url": "https://github.com/kevincart/surfr"
   },
   "email": "kevincart@gmail.com",
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "create-react-library": "^3.0.6",
     "eslint": "~6.6.0",
