@@ -12,6 +12,8 @@
 /build
 
 # misc
+yarn.lock
+
 .idea
 .DS_Store
 .env.local
