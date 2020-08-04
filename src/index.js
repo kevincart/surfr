@@ -1,9 +1,9 @@
 // Component imports
-import Box from './components/SurfrBox';
-import Card from './components/SurfrCard';
-import Emoji from './components/SurfrEmoji';
-import Nav from './components/SurfrNav';
-import SVG from './components/SurfrSVG';
+import Box from './components/surfrBox';
+import Card from './components/surfrCard';
+import Emoji from './components/surfrEmoji';
+import Nav from './components/surfrNav';
+import SVG from './components/surfrSVG';
 
 // Style imports
 import './surfr.css';
